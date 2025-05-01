@@ -1,0 +1,5 @@
+wwwroot\schedule.html
+wwwroot\schedules\level1.pdf
+wwwroot\schedules\level2.pdf
+wwwroot\schedules\level3.pdf
+wwwroot\schedules\level4.pdf

@@ -1,0 +1,537 @@
+{
+  "Version": 1,
+  "Hash": "tLvhawUHFp8N8EI67dsj10F8iMuBLQH+zKByMz+X/0c=",
+  "Source": "system_university",
+  "BasePath": "_content/system_university",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "system_university\\wwwroot",
+      "Source": "system_university",
+      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "BasePath": "_content/system_university",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedule.html",
+      "SourceId": "system_university",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "BasePath": "_content/system_university",
+      "RelativePath": "schedule#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "cvwldailn4",
+      "Integrity": "WHGnfbHPAanu7AYmaMCsyw64qp82Bf+vK0+6cse4Urw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\schedule.html"
+    },
+    {
+      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level1.pdf",
+      "SourceId": "system_university",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "BasePath": "_content/system_university",
+      "RelativePath": "schedules/level1#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ojvsslt2c4",
+      "Integrity": "tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\schedules\\level1.pdf"
+    },
+    {
+      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level2.pdf",
+      "SourceId": "system_university",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "BasePath": "_content/system_university",
+      "RelativePath": "schedules/level2#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "irkrfmly8s",
+      "Integrity": "3vj2HDngiDkhnE4xT+otoYt5bnsQGWgRE3I5vjEEU+g=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\schedules\\level2.pdf"
+    },
+    {
+      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level3.pdf",
+      "SourceId": "system_university",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "BasePath": "_content/system_university",
+      "RelativePath": "schedules/level3#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "zuds29s88r",
+      "Integrity": "K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\schedules\\level3.pdf"
+    },
+    {
+      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level4.pdf",
+      "SourceId": "system_university",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "BasePath": "_content/system_university",
+      "RelativePath": "schedules/level4#[.{fingerprint}]?.pdf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "et8cp7s64u",
+      "Integrity": "XtOUH77NzCum0KMEaBFo+aXUO6AgEgKXmlVpvnuDWrc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\schedules\\level4.pdf"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "schedule.cvwldailn4.html",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedule.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WHGnfbHPAanu7AYmaMCsyw64qp82Bf+vK0+6cse4Urw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 17:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "cvwldailn4"
+        },
+        {
+          "Name": "label",
+          "Value": "schedule.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WHGnfbHPAanu7AYmaMCsyw64qp82Bf+vK0+6cse4Urw="
+        }
+      ]
+    },
+    {
+      "Route": "schedule.html",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedule.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WHGnfbHPAanu7AYmaMCsyw64qp82Bf+vK0+6cse4Urw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 17:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WHGnfbHPAanu7AYmaMCsyw64qp82Bf+vK0+6cse4Urw="
+        }
+      ]
+    },
+    {
+      "Route": "schedules/level1.ojvsslt2c4.pdf",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ojvsslt2c4"
+        },
+        {
+          "Name": "label",
+          "Value": "schedules/level1.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs="
+        }
+      ]
+    },
+    {
+      "Route": "schedules/level1.pdf",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level1.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "186960"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:54:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs="
+        }
+      ]
+    },
+    {
+      "Route": "schedules/level2.irkrfmly8s.pdf",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3vj2HDngiDkhnE4xT+otoYt5bnsQGWgRE3I5vjEEU+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:54:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "irkrfmly8s"
+        },
+        {
+          "Name": "label",
+          "Value": "schedules/level2.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-3vj2HDngiDkhnE4xT+otoYt5bnsQGWgRE3I5vjEEU+g="
+        }
+      ]
+    },
+    {
+      "Route": "schedules/level2.pdf",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level2.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "135566"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"3vj2HDngiDkhnE4xT+otoYt5bnsQGWgRE3I5vjEEU+g=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:54:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-3vj2HDngiDkhnE4xT+otoYt5bnsQGWgRE3I5vjEEU+g="
+        }
+      ]
+    },
+    {
+      "Route": "schedules/level3.pdf",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level3.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:53:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg="
+        }
+      ]
+    },
+    {
+      "Route": "schedules/level3.zuds29s88r.pdf",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level3.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "117584"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:53:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zuds29s88r"
+        },
+        {
+          "Name": "label",
+          "Value": "schedules/level3.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg="
+        }
+      ]
+    },
+    {
+      "Route": "schedules/level4.et8cp7s64u.pdf",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level4.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XtOUH77NzCum0KMEaBFo+aXUO6AgEgKXmlVpvnuDWrc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "et8cp7s64u"
+        },
+        {
+          "Name": "label",
+          "Value": "schedules/level4.pdf"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XtOUH77NzCum0KMEaBFo+aXUO6AgEgKXmlVpvnuDWrc="
+        }
+      ]
+    },
+    {
+      "Route": "schedules/level4.pdf",
+      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level4.pdf",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "226953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/pdf"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XtOUH77NzCum0KMEaBFo+aXUO6AgEgKXmlVpvnuDWrc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 01 May 2025 15:53:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XtOUH77NzCum0KMEaBFo+aXUO6AgEgKXmlVpvnuDWrc="
+        }
+      ]
+    }
+  ]
+}
