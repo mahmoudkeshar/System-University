@@ -5,5 +5,6 @@ namespace system_university.Models
     public class Student : IdentityUser
     {
         public string FullName { get; set; }
+        public int StudentId { get; set; }
     }
 }

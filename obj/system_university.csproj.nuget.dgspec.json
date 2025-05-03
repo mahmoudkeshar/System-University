@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\project_.NET\\system_university\\system_university.csproj": {}
+    "D:\\project_.NET\\System_University\\system_university.csproj": {}
   },
   "projects": {
-    "D:\\project_.NET\\system_university\\system_university.csproj": {
+    "D:\\project_.NET\\System_University\\system_university.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\project_.NET\\system_university\\system_university.csproj",
+        "projectUniqueName": "D:\\project_.NET\\System_University\\system_university.csproj",
         "projectName": "system_university",
-        "projectPath": "D:\\project_.NET\\system_university\\system_university.csproj",
+        "projectPath": "D:\\project_.NET\\System_University\\system_university.csproj",
         "packagesPath": "C:\\Users\\XPRISTO\\.nuget\\packages\\",
-        "outputPath": "D:\\project_.NET\\system_university\\obj\\",
+        "outputPath": "D:\\project_.NET\\System_University\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -72,9 +72,17 @@
               "target": "Package",
               "version": "[9.0.4, )"
             },
+            "QRCoder": {
+              "target": "Package",
+              "version": "[1.6.0, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.6.2, )"
+            },
+            "iTextSharp": {
+              "target": "Package",
+              "version": "[5.5.13.4, )"
             }
           },
           "imports": [

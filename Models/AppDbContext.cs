@@ -26,6 +26,10 @@ namespace system_university.Models
                 new Schedule{Id = 3,Level = 3,StudentSchedule = "/schedules/level3.pdf"},
                 new Schedule{Id = 4,Level = 4,StudentSchedule = "/schedules/level4.pdf"}
             );
+
+            modelBuilder.Entity<Student>()
+                        .HasIndex(s => s.StudentId)
+                        .IsUnique();
         }
 
 

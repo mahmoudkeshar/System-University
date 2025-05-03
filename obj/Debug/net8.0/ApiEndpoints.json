@@ -32,15 +32,41 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "system_university.Controllers.ScheduleController",
+    "ContainingType": "system_university.Controllers.ProjectController",
+    "Method": "GetAll",
+    "RelativePath": "api/Project",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "system_university.Controllers.ProjectController",
     "Method": "GetByLevel",
-    "RelativePath": "api/Schedule/level/{level}",
+    "RelativePath": "api/Project/level/{level}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
         "Name": "level",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "system_university.Controllers.ProjectController",
+    "Method": "GetQRCode",
+    "RelativePath": "api/Project/qrcode/{studentCode}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "studentCode",
         "Type": "System.Int32",
         "IsRequired": true
       }

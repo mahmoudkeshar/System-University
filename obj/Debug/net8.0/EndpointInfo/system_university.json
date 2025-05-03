@@ -67,14 +67,49 @@
         }
       }
     },
-    "/api/Schedule/level/{level}": {
+    "/api/Project": {
       "get": {
         "tags": [
-          "Schedule"
+          "Project"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Project/level/{level}": {
+      "get": {
+        "tags": [
+          "Project"
         ],
         "parameters": [
           {
             "name": "level",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Project/qrcode/{studentCode}": {
+      "get": {
+        "tags": [
+          "Project"
+        ],
+        "parameters": [
+          {
+            "name": "studentCode",
             "in": "path",
             "required": true,
             "schema": {

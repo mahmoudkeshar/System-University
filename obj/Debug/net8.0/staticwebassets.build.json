@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tLvhawUHFp8N8EI67dsj10F8iMuBLQH+zKByMz+X/0c=",
+  "Hash": "otdmbhj7g8dlBkVChtorjeLWMiMoCOk8xF6worbYreE=",
   "Source": "system_university",
   "BasePath": "_content/system_university",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "system_university\\wwwroot",
       "Source": "system_university",
-      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "ContentRoot": "D:\\project_.NET\\System_University\\wwwroot\\",
       "BasePath": "_content/system_university",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedule.html",
+      "Identity": "D:\\project_.NET\\System_University\\wwwroot\\schedule.html",
       "SourceId": "system_university",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "ContentRoot": "D:\\project_.NET\\System_University\\wwwroot\\",
       "BasePath": "_content/system_university",
       "RelativePath": "schedule#[.{fingerprint}]?.html",
       "AssetKind": "All",
@@ -38,10 +38,10 @@
       "OriginalItemSpec": "wwwroot\\schedule.html"
     },
     {
-      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level1.pdf",
+      "Identity": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level1.pdf",
       "SourceId": "system_university",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "ContentRoot": "D:\\project_.NET\\System_University\\wwwroot\\",
       "BasePath": "_content/system_university",
       "RelativePath": "schedules/level1#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -59,10 +59,10 @@
       "OriginalItemSpec": "wwwroot\\schedules\\level1.pdf"
     },
     {
-      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level2.pdf",
+      "Identity": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level2.pdf",
       "SourceId": "system_university",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "ContentRoot": "D:\\project_.NET\\System_University\\wwwroot\\",
       "BasePath": "_content/system_university",
       "RelativePath": "schedules/level2#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -80,10 +80,10 @@
       "OriginalItemSpec": "wwwroot\\schedules\\level2.pdf"
     },
     {
-      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level3.pdf",
+      "Identity": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level3.pdf",
       "SourceId": "system_university",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "ContentRoot": "D:\\project_.NET\\System_University\\wwwroot\\",
       "BasePath": "_content/system_university",
       "RelativePath": "schedules/level3#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -101,10 +101,10 @@
       "OriginalItemSpec": "wwwroot\\schedules\\level3.pdf"
     },
     {
-      "Identity": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level4.pdf",
+      "Identity": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level4.pdf",
       "SourceId": "system_university",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\project_.NET\\system_university\\wwwroot\\",
+      "ContentRoot": "D:\\project_.NET\\System_University\\wwwroot\\",
       "BasePath": "_content/system_university",
       "RelativePath": "schedules/level4#[.{fingerprint}]?.pdf",
       "AssetKind": "All",
@@ -125,7 +125,7 @@
   "Endpoints": [
     {
       "Route": "schedule.cvwldailn4.html",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedule.html",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedule.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -170,7 +170,7 @@
     },
     {
       "Route": "schedule.html",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedule.html",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedule.html",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -207,7 +207,7 @@
     },
     {
       "Route": "schedules/level1.ojvsslt2c4.pdf",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level1.pdf",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level1.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -252,7 +252,7 @@
     },
     {
       "Route": "schedules/level1.pdf",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level1.pdf",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level1.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -289,7 +289,7 @@
     },
     {
       "Route": "schedules/level2.irkrfmly8s.pdf",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level2.pdf",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level2.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -334,7 +334,7 @@
     },
     {
       "Route": "schedules/level2.pdf",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level2.pdf",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level2.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -371,7 +371,7 @@
     },
     {
       "Route": "schedules/level3.pdf",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level3.pdf",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level3.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -408,7 +408,7 @@
     },
     {
       "Route": "schedules/level3.zuds29s88r.pdf",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level3.pdf",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level3.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -453,7 +453,7 @@
     },
     {
       "Route": "schedules/level4.et8cp7s64u.pdf",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level4.pdf",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level4.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -498,7 +498,7 @@
     },
     {
       "Route": "schedules/level4.pdf",
-      "AssetFile": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level4.pdf",
+      "AssetFile": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level4.pdf",
       "Selectors": [],
       "ResponseHeaders": [
         {

@@ -177,3 +177,7 @@ D:\project_.NET\system_university\obj\Debug\net8.0\system_university.pdb
 D:\project_.NET\system_university\obj\Debug\net8.0\system_university.genruntimeconfig.cache
 D:\project_.NET\system_university\obj\Debug\net8.0\ref\system_university.dll
 D:\project_.NET\system_university\bin\Debug\net8.0\system_university.staticwebassets.runtime.json
+D:\project_.NET\System_University\obj\Debug\net8.0\system_university.sourcelink.json
+D:\project_.NET\System_University\bin\Debug\net8.0\BouncyCastle.Cryptography.dll
+D:\project_.NET\System_University\bin\Debug\net8.0\itextsharp.dll
+D:\project_.NET\System_University\bin\Debug\net8.0\QRCoder.dll

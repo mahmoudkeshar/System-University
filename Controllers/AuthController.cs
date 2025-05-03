@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using system_university.Models;
 
 namespace system_university.Controllers
@@ -23,19 +24,29 @@ namespace system_university.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDTO model)
         {
+            int studentCode;
+            do
+            {
+                studentCode = new Random().Next(100000, 1000000); // من 100000 إلى 999999
+            }
+            while (await _userManager.Users.AnyAsync(u => u.StudentId == studentCode));
+
             var user = new Student
             {
                 UserName = model.Email,
                 Email = model.Email,
                 FullName = model.FullName,
+                StudentId = studentCode
             };
+
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
-                return Ok(new { Message = "Registration successful" });
+                return Ok(new { Message = "Registration successful"});
 
             return BadRequest(result.Errors);
         }
+
 
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] LoginDTO model)
@@ -61,7 +72,8 @@ namespace system_university.Controllers
                     user.Id,
                     user.UserName,
                     user.Email,
-                    user.FullName
+                    user.FullName,
+                    user.StudentId
                 }
             });
         }

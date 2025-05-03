@@ -1,23 +1,23 @@
 {
   "Files": [
     {
-      "Id": "D:\\project_.NET\\system_university\\wwwroot\\schedule.html",
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedule.html",
       "PackagePath": "staticwebassets\\schedule.html"
     },
     {
-      "Id": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level1.pdf",
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level1.pdf",
       "PackagePath": "staticwebassets\\schedules\\level1.pdf"
     },
     {
-      "Id": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level2.pdf",
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level2.pdf",
       "PackagePath": "staticwebassets\\schedules\\level2.pdf"
     },
     {
-      "Id": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level3.pdf",
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level3.pdf",
       "PackagePath": "staticwebassets\\schedules\\level3.pdf"
     },
     {
-      "Id": "D:\\project_.NET\\system_university\\wwwroot\\schedules\\level4.pdf",
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level4.pdf",
       "PackagePath": "staticwebassets\\schedules\\level4.pdf"
     },
     {
