@@ -24,25 +24,27 @@ namespace system_university.Controllers
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] RegisterDTO model)
         {
-            int studentCode;
-            do
-            {
-                studentCode = new Random().Next(100000, 1000000); // من 100000 إلى 999999
-            }
-            while (await _userManager.Users.AnyAsync(u => u.StudentId == studentCode));
+            // التحقق من أن الكود 6 أرقام
+            if (model.StudentCode < 100000 || model.StudentCode > 999999)
+                return BadRequest(new { Error = "StudentCode must be exactly 6 digits." });
+
+            // Fixing the lambda expression to use '==' for comparison instead of '=' for assignment
+            var isCodeExists = await _userManager.Users.AnyAsync(u => u.StudentCode == model.StudentCode);
+            if (isCodeExists)
+                return BadRequest(new { Error = "StudentCode already exists." });
 
             var user = new Student
             {
                 UserName = model.Email,
                 Email = model.Email,
                 FullName = model.FullName,
-                StudentId = studentCode
+                StudentCode = model.StudentCode
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);
 
             if (result.Succeeded)
-                return Ok(new { Message = "Registration successful"});
+                return Ok(new { Message = "Registration successful" });
 
             return BadRequest(result.Errors);
         }
@@ -73,7 +75,7 @@ namespace system_university.Controllers
                     user.UserName,
                     user.Email,
                     user.FullName,
-                    user.StudentId
+                    user.StudentCode
                 }
             });
         }

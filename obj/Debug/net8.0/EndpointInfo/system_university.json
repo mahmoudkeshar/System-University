@@ -67,10 +67,10 @@
         }
       }
     },
-    "/api/Project": {
+    "/api/Student/AllStudent": {
       "get": {
         "tags": [
-          "Project"
+          "Student"
         ],
         "responses": {
           "200": {
@@ -79,10 +79,10 @@
         }
       }
     },
-    "/api/Project/level/{level}": {
+    "/api/Student/level/{level}": {
       "get": {
         "tags": [
-          "Project"
+          "Student"
         ],
         "parameters": [
           {
@@ -102,10 +102,10 @@
         }
       }
     },
-    "/api/Project/qrcode/{studentCode}": {
+    "/api/Student/qrcode/{studentCode}": {
       "get": {
         "tags": [
-          "Project"
+          "Student"
         ],
         "parameters": [
           {
@@ -148,6 +148,10 @@
           "fullName": {
             "type": "string",
             "nullable": true
+          },
+          "studentCode": {
+            "type": "integer",
+            "format": "int32"
           },
           "email": {
             "type": "string",

@@ -32,9 +32,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "system_university.Controllers.ProjectController",
+    "ContainingType": "system_university.Controllers.StudentController",
     "Method": "GetAll",
-    "RelativePath": "api/Project",
+    "RelativePath": "api/Student/AllStudent",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -42,9 +42,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "system_university.Controllers.ProjectController",
+    "ContainingType": "system_university.Controllers.StudentController",
     "Method": "GetByLevel",
-    "RelativePath": "api/Project/level/{level}",
+    "RelativePath": "api/Student/level/{level}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -58,9 +58,9 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "system_university.Controllers.ProjectController",
+    "ContainingType": "system_university.Controllers.StudentController",
     "Method": "GetQRCode",
-    "RelativePath": "api/Project/qrcode/{studentCode}",
+    "RelativePath": "api/Student/qrcode/{studentCode}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

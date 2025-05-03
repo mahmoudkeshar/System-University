@@ -28,7 +28,7 @@ namespace system_university.Models
             );
 
             modelBuilder.Entity<Student>()
-                        .HasIndex(s => s.StudentId)
+                        .HasIndex(s => s.StudentCode)
                         .IsUnique();
         }
 
