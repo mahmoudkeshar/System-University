@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using system_university.Models;
 
@@ -11,9 +12,11 @@ using system_university.Models;
 namespace system_university.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    partial class AppDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250510072108_update")]
+    partial class update
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -231,43 +234,6 @@ namespace system_university.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Subjects");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Programming"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Mathematics"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Name = "Artificial Intelligence"
-                        },
-                        new
-                        {
-                            Id = 4,
-                            Name = "Databases"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Name = "Data Structures"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Name = "Operating Systems"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Name = "Computer Networks"
-                        });
                 });
 
             modelBuilder.Entity("system_university.Models.User", b =>

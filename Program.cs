@@ -9,15 +9,17 @@ namespace vital_tracker
 {
     public class Program
     {
-        public static void Main(string[] args)
+        public static async Task Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            // Configure Database Context
             builder.Services.AddDbContext<AppDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("project"));
             });
 
+            // Configure Authentication
             builder.Services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
@@ -38,7 +40,7 @@ namespace vital_tracker
                 };
             });
 
-
+            // Configure CORS
             builder.Services.AddCors(options =>
             {
                 options.AddPolicy("AllowAll", builder =>
@@ -49,40 +51,55 @@ namespace vital_tracker
                 });
             });
 
-
-            builder.Services.AddScoped<JwtService>();
-
-            builder.Services.AddIdentity<Student, IdentityRole>()
-                .AddEntityFrameworkStores<AppDbContext>() // This requires the correct namespace
+            // Configure Identity
+            builder.Services.AddIdentity<User, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
                 .AddDefaultTokenProviders();
 
-            // Add services to the container.
+            // Register JwtService
+            builder.Services.AddScoped<JwtService>();
 
+            // Add Controllers and Swagger
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
             var app = builder.Build();
 
-            // Configure the HTTP request pipeline.
+            // Create Roles when application starts
+            using (var scope = app.Services.CreateScope())
+            {
+                var services = scope.ServiceProvider;
+                await CreateRoles(services);
+            }
+
+            // Middleware Configuration
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
                 app.UseSwaggerUI();
             }
 
-            // À„ ›Ì middleware:
             app.UseCors("AllowAll");
-
+            app.UseAuthentication(); // Important to add this before Authorization
             app.UseAuthorization();
-
-            app.MapControllers();
-
             app.UseStaticFiles();
-
-
+            app.MapControllers();
             app.Run();
+        }
+
+        private static async Task CreateRoles(IServiceProvider serviceProvider)
+        {
+            var roleManager = serviceProvider.GetRequiredService<RoleManager<IdentityRole>>();
+            string[] roleNames = { "Admin", "Student", "Instructor" };
+
+            foreach (var roleName in roleNames)
+            {
+                if (!await roleManager.RoleExistsAsync(roleName))
+                {
+                    await roleManager.CreateAsync(new IdentityRole(roleName));
+                }
+            }
         }
     }
 }
