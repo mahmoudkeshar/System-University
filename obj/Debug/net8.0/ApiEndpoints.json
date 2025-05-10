@@ -74,6 +74,86 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "system_university.Controllers.InstructorController",
+    "Method": "ExportAttendance",
+    "RelativePath": "api/Instructor/export-attendance",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "section",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "system_university.Controllers.InstructorController",
+    "Method": "ExportDegree",
+    "RelativePath": "api/Instructor/export-DegreeOfQuizes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "QuizCode",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "system_university.Controllers.InstructorController",
+    "Method": "GetInstructorSubjects",
+    "RelativePath": "api/Instructor/instructor/{instructorId}/subjects",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "instructorId",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "system_university.Controllers.InstructorController",
+    "Method": "SaveScan",
+    "RelativePath": "api/Instructor/save-scan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "system_university.Models.StudentAttendance",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "system_university.Controllers.InstructorController",
+    "Method": "ScanQuiz",
+    "RelativePath": "api/Instructor/Scan-Quiz",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "model",
+        "Type": "system_university.Models.DegreeOfQuizes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "system_university.Controllers.StudentController",
     "Method": "GetAll",
     "RelativePath": "api/Student/AllStudent",

@@ -170,6 +170,33 @@ namespace system_university.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
+            modelBuilder.Entity("system_university.Models.DegreeOfQuizes", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Degree")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("QuizCode")
+                        .HasColumnType("int");
+
+                    b.Property<int>("StudentCode")
+                        .HasColumnType("int");
+
+                    b.Property<string>("StudentName")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("degreeOfQuizes");
+                });
+
             modelBuilder.Entity("system_university.Models.Schedule", b =>
                 {
                     b.Property<int>("Id")
@@ -214,6 +241,29 @@ namespace system_university.Migrations
                             Level = 4,
                             StudentSchedule = "/schedules/level4.pdf"
                         });
+                });
+
+            modelBuilder.Entity("system_university.Models.StudentAttendance", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("StudentCode")
+                        .HasColumnType("int");
+
+                    b.Property<int>("section")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("StudentAttendances");
                 });
 
             modelBuilder.Entity("system_university.Models.Subject", b =>

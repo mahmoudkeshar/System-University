@@ -103,42 +103,18 @@ namespace system_university.Controllers
             var result = await _signInManager.CheckPasswordSignInAsync(user, model.Password, false);
             if (!result.Succeeded)
                 return Unauthorized(new { message = "Invalid email or password" });
-
+          
             var token = await GenerateJwtToken(user);
-
-            if (user.Role == Roles.Instructor)
+         
+            var userData = new
             {
-                var instructor = await _context.Instructors
-                    .Include(i => i.Subjects)
-                    .FirstOrDefaultAsync(i => i.Id == user.Id);
+                user.Id,
+                user.Email,
+                user.Role,
+                Token = token
+            };
 
-                var userData = new
-                {
-                    user.Id,
-                    user.Email,
-                    user.Role,
-                    Token = token,
-                    Subjects = instructor.Subjects.Select(s => new
-                    {
-                        s.Id,
-                        s.Name
-                    })
-                };
-
-                return Ok(userData);
-            }
-            else
-            {
-                var userData = new
-                {
-                    user.Id,
-                    user.Email,
-                    user.Role,
-                    Token = token
-                };
-
-                return Ok(userData);
-            }
+            return Ok(userData);
         }
 
 

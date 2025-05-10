@@ -141,6 +141,134 @@
         }
       }
     },
+    "/api/Instructor/instructor/{instructorId}/subjects": {
+      "get": {
+        "tags": [
+          "Instructor"
+        ],
+        "parameters": [
+          {
+            "name": "instructorId",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Instructor/save-scan": {
+      "post": {
+        "tags": [
+          "Instructor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentAttendance"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentAttendance"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/StudentAttendance"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Instructor/export-attendance": {
+      "get": {
+        "tags": [
+          "Instructor"
+        ],
+        "parameters": [
+          {
+            "name": "section",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Instructor/Scan-Quiz": {
+      "post": {
+        "tags": [
+          "Instructor"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DegreeOfQuizes"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/DegreeOfQuizes"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/DegreeOfQuizes"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Instructor/export-DegreeOfQuizes": {
+      "get": {
+        "tags": [
+          "Instructor"
+        ],
+        "parameters": [
+          {
+            "name": "QuizCode",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/api/Student/AllStudent": {
       "get": {
         "tags": [
@@ -202,6 +330,32 @@
   },
   "components": {
     "schemas": {
+      "DegreeOfQuizes": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "studentCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "studentName": {
+            "type": "string",
+            "nullable": true
+          },
+          "quizCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "degree": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
       "LoginDTO": {
         "type": "object",
         "properties": {
@@ -269,6 +423,28 @@
               "type": "string"
             },
             "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "StudentAttendance": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "studentCode": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "section": {
+            "type": "integer",
+            "format": "int32"
           }
         },
         "additionalProperties": false

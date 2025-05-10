@@ -52,5 +52,8 @@ namespace system_university.Models
         public DbSet<Instructor> Instructors { get; set; }
         public DbSet<Admin> Admins { get; set; }
         public DbSet<Subject> Subjects { get; set; }
+        public DbSet<StudentAttendance> StudentAttendances { get; set; }
+        public DbSet<DegreeOfQuizes> degreeOfQuizes { get; set; }
+
     }
 }
