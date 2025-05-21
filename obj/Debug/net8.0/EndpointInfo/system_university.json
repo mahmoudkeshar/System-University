@@ -163,7 +163,7 @@
         }
       }
     },
-    "/api/Instructor/save-scan": {
+    "/api/Instructor/save-scan-attend": {
       "post": {
         "tags": [
           "Instructor"
@@ -216,7 +216,7 @@
         }
       }
     },
-    "/api/Instructor/Scan-Quiz": {
+    "/api/Instructor/save-scan-Quiz": {
       "post": {
         "tags": [
           "Instructor"

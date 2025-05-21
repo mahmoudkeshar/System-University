@@ -124,7 +124,7 @@
   {
     "ContainingType": "system_university.Controllers.InstructorController",
     "Method": "SaveScan",
-    "RelativePath": "api/Instructor/save-scan",
+    "RelativePath": "api/Instructor/save-scan-attend",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -140,7 +140,7 @@
   {
     "ContainingType": "system_university.Controllers.InstructorController",
     "Method": "ScanQuiz",
-    "RelativePath": "api/Instructor/Scan-Quiz",
+    "RelativePath": "api/Instructor/save-scan-Quiz",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,

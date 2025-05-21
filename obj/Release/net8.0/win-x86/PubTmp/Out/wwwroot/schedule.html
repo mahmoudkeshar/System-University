@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>عرض جدول الطلاب</title>
+</head>
+<body>
+    <h2>عرض الجدول حسب المستوى</h2>
+
+    <label for="level">اختر المستوى:</label>
+    <select id="level">
+        <option value="1">المستوى 1</option>
+        <option value="2">المستوى 2</option>
+        <option value="3">المستوى 3</option>
+        <option value="4">المستوى 4</option>
+    </select>
+
+    <button onclick="getSchedule()">عرض الجدول</button>
+
+    <div id="result" style="margin-top: 20px;"></div>
+
+    <script>
+        async function getSchedule() {
+            const level = document.getElementById("level").value;
+            const resultDiv = document.getElementById("result");
+
+            try {
+                const response = await fetch(`https://localhost:7046/api/Schedule/level/${level}`);
+
+                if (!response.ok) {
+                    resultDiv.innerHTML = `<p style="color:red;">لم يتم العثور على جدول لهذا المستوى.</p>`;
+                    return;
+                }
+
+                const data = await response.json();
+                const fullUrl = `https://localhost:7046${data.studentSchedule}`;
+
+                resultDiv.innerHTML = `
+                    <h3>جدول المستوى ${data.level}:</h3>
+                    <a href="${fullUrl}" target="_blank">عرض الملف (PDF)</a>
+                `;
+            } catch (error) {
+                resultDiv.innerHTML = `<p style="color:red;">حدث خطأ أثناء الاتصال بالسيرفر.</p>`;
+                console.error(error);
+            }
+        }
+    </script>
+</body>
+</html>

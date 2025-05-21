@@ -3,6 +3,38 @@
   "WorkspaceRootPath": "D:\\project_.NET\\System_University\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\system_university.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:system_university.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:controllers\\instructorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -15,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\instructor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -26,36 +54,16 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/._sqlexpress/System_University/True/SqlTable/dbo.InstructorSubjects.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\subject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\registerinsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\registerinsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\registeradmindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,14 +86,6 @@
       "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\system_university.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:system_university.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|d:\\project_.net\\system_university\\models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6C4A5C16-4052-4C93-B1F2-417B2B8C37EC}|system_university.csproj|solutionrelative:models\\schedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -97,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 295,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -113,7 +113,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "D:\\project_.NET\\System_University\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "D:\\project_.NET\\System_University\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAUwEQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:36:17.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Student.cs",
+              "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "D:\\project_.NET\\System_University\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-01T14:30:25.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\project_.NET\\System_University\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\project_.NET\\System_University\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-01T14:02:49.829Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "DegreeOfQuizes.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\DegreeOfQuizes.cs",
               "RelativeDocumentMoniker": "Models\\DegreeOfQuizes.cs",
@@ -125,44 +164,58 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "system_university.csproj",
+              "DocumentMoniker": "D:\\project_.NET\\System_University\\system_university.csproj",
+              "RelativeDocumentMoniker": "system_university.csproj",
+              "ToolTip": "D:\\project_.NET\\System_University\\system_university.csproj",
+              "RelativeToolTip": "system_university.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-01T15:51:07.493Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "InstructorController.cs",
-              "DocumentMoniker": "D:\\project_.NET\\System_University\\Controllers\\InstructorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InstructorController.cs",
-              "ToolTip": "D:\\project_.NET\\System_University\\Controllers\\InstructorController.cs",
-              "RelativeToolTip": "Controllers\\InstructorController.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAowG8AAAAcAAAAAAAAAA==",
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "D:\\project_.NET\\System_University\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "D:\\project_.NET\\System_University\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwEAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-10T12:26:23.963Z",
+              "WhenOpened": "2025-05-01T16:01:32.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "D:\\project_.NET\\System_University\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:14:40.17Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "D:\\project_.NET\\System_University\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAswF0AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAcwGQAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:22:28.282Z"
+              "WhenOpened": "2025-05-01T14:22:28.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Instructor.cs",
-              "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\Instructor.cs",
-              "RelativeDocumentMoniker": "Models\\Instructor.cs",
-              "ToolTip": "D:\\project_.NET\\System_University\\Models\\Instructor.cs",
-              "RelativeToolTip": "Models\\Instructor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:08:52.91Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\AppDbContext.cs",
               "RelativeDocumentMoniker": "Models\\AppDbContext.cs",
@@ -174,40 +227,19 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Instructor.cs",
+              "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\Instructor.cs",
+              "RelativeDocumentMoniker": "Models\\Instructor.cs",
+              "ToolTip": "D:\\project_.NET\\System_University\\Models\\Instructor.cs",
+              "RelativeToolTip": "Models\\Instructor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T17:08:52.91Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "AuthController.cs",
-              "DocumentMoniker": "D:\\project_.NET\\System_University\\Controllers\\AuthController.cs",
-              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
-              "ToolTip": "D:\\project_.NET\\System_University\\Controllers\\AuthController.cs",
-              "RelativeToolTip": "Controllers\\AuthController.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAuwGkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:36:17.953Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Student.cs",
-              "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Models\\Student.cs",
-              "ToolTip": "D:\\project_.NET\\System_University\\Models\\Student.cs",
-              "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T14:30:25.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "dbo.InstructorSubjects.sql",
-              "DocumentMoniker": "ViewDataWindow_MSSQL__/._sqlexpress/System_University/True/SqlTable/dbo.InstructorSubjects.sql",
-              "ToolTip": "ViewDataWindow_MSSQL__/._sqlexpress/System_University/True/SqlTable/dbo.InstructorSubjects.sql",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2025-05-10T12:32:54.35Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "AdminController.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
@@ -219,7 +251,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 8,
+              "Title": "InstructorController.cs",
+              "DocumentMoniker": "D:\\project_.NET\\System_University\\Controllers\\InstructorController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InstructorController.cs",
+              "ToolTip": "D:\\project_.NET\\System_University\\Controllers\\InstructorController.cs",
+              "RelativeToolTip": "Controllers\\InstructorController.cs",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAowG8AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T12:26:23.963Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "dbo.InstructorSubjects.sql",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/._sqlexpress/System_University/True/SqlTable/dbo.InstructorSubjects.sql",
+              "ToolTip": "ViewDataWindow_MSSQL__/._sqlexpress/System_University/True/SqlTable/dbo.InstructorSubjects.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-10T12:32:54.35Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "Admin.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "Models\\Admin.cs",
@@ -231,19 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\User.cs",
-              "RelativeDocumentMoniker": "Models\\User.cs",
-              "ToolTip": "D:\\project_.NET\\System_University\\Models\\User.cs",
-              "RelativeToolTip": "Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T17:14:40.17Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 13,
               "Title": "Subject.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\Subject.cs",
               "RelativeDocumentMoniker": "Models\\Subject.cs",
@@ -255,19 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\project_.NET\\System_University\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\project_.NET\\System_University\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-01T14:02:49.829Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "RegisterInsDTO.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\RegisterInsDTO.cs",
               "RelativeDocumentMoniker": "Models\\RegisterInsDTO.cs",
@@ -279,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "RegisterAdminDTO.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\RegisterAdminDTO.cs",
               "RelativeDocumentMoniker": "Models\\RegisterAdminDTO.cs",
@@ -291,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Roles.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\Roles.cs",
               "RelativeDocumentMoniker": "Models\\Roles.cs",
@@ -303,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "JWTServises.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\JWTServises.cs",
               "RelativeDocumentMoniker": "Models\\JWTServises.cs",
@@ -315,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "RegisterStudentDTO.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\RegisterStudentDTO.cs",
               "RelativeDocumentMoniker": "Models\\RegisterStudentDTO.cs",
@@ -328,30 +357,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "system_university.csproj",
-              "DocumentMoniker": "D:\\project_.NET\\System_University\\system_university.csproj",
-              "RelativeDocumentMoniker": "system_university.csproj",
-              "ToolTip": "D:\\project_.NET\\System_University\\system_university.csproj",
-              "RelativeToolTip": "system_university.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-01T15:51:07.493Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "D:\\project_.NET\\System_University\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
-              "ToolTip": "D:\\project_.NET\\System_University\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-01T16:01:32.816Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
               "Title": "LoginDTO.cs",
               "DocumentMoniker": "D:\\project_.NET\\System_University\\Models\\LoginDTO.cs",
               "RelativeDocumentMoniker": "Models\\LoginDTO.cs",

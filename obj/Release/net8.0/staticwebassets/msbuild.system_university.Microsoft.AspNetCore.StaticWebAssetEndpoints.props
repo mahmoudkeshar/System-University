@@ -1,0 +1,64 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedule.cvwldailn4.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedule.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"cvwldailn4"},{"Name":"integrity","Value":"sha256-WHGnfbHPAanu7AYmaMCsyw64qp82Bf\u002BvK0\u002B6cse4Urw="},{"Name":"label","Value":"_content/system_university/schedule.html"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1775"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022WHGnfbHPAanu7AYmaMCsyw64qp82Bf\u002BvK0\u002B6cse4Urw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 17:17:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedule.html">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedule.html'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-WHGnfbHPAanu7AYmaMCsyw64qp82Bf\u002BvK0\u002B6cse4Urw="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1775"},{"Name":"Content-Type","Value":"text/html"},{"Name":"ETag","Value":"\u0022WHGnfbHPAanu7AYmaMCsyw64qp82Bf\u002BvK0\u002B6cse4Urw=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 17:17:47 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedules/level1.ojvsslt2c4.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedules\level1.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ojvsslt2c4"},{"Name":"integrity","Value":"sha256-tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs="},{"Name":"label","Value":"_content/system_university/schedules/level1.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"186960"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:54:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedules/level1.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedules\level1.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"186960"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022tO5eIjXLnAg8KX8VPFfDu6fCRpHSErqbTHOlfPPhCRs=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:54:00 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedules/level2.irkrfmly8s.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedules\level2.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"irkrfmly8s"},{"Name":"integrity","Value":"sha256-3vj2HDngiDkhnE4xT\u002BotoYt5bnsQGWgRE3I5vjEEU\u002Bg="},{"Name":"label","Value":"_content/system_university/schedules/level2.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"135566"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00223vj2HDngiDkhnE4xT\u002BotoYt5bnsQGWgRE3I5vjEEU\u002Bg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:54:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedules/level2.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedules\level2.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-3vj2HDngiDkhnE4xT\u002BotoYt5bnsQGWgRE3I5vjEEU\u002Bg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"135566"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u00223vj2HDngiDkhnE4xT\u002BotoYt5bnsQGWgRE3I5vjEEU\u002Bg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:54:03 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedules/level3.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedules\level3.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"117584"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:53:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedules/level3.zuds29s88r.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedules\level3.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"zuds29s88r"},{"Name":"integrity","Value":"sha256-K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg="},{"Name":"label","Value":"_content/system_university/schedules/level3.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"117584"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022K/virUN8jpIGRmpDWrZEt7t1fJb02cEU/QMPwIyKLwg=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:53:54 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedules/level4.et8cp7s64u.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedules\level4.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"et8cp7s64u"},{"Name":"integrity","Value":"sha256-XtOUH77NzCum0KMEaBFo\u002BaXUO6AgEgKXmlVpvnuDWrc="},{"Name":"label","Value":"_content/system_university/schedules/level4.pdf"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"226953"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022XtOUH77NzCum0KMEaBFo\u002BaXUO6AgEgKXmlVpvnuDWrc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:53:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/system_university/schedules/level4.pdf">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\schedules\level4.pdf'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XtOUH77NzCum0KMEaBFo\u002BaXUO6AgEgKXmlVpvnuDWrc="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"226953"},{"Name":"Content-Type","Value":"application/pdf"},{"Name":"ETag","Value":"\u0022XtOUH77NzCum0KMEaBFo\u002BaXUO6AgEgKXmlVpvnuDWrc=\u0022"},{"Name":"Last-Modified","Value":"Thu, 01 May 2025 15:53:57 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

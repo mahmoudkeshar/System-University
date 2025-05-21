@@ -169,7 +169,6 @@ D:\project_.NET\system_university\obj\Debug\net8.0\staticwebassets\msbuild.build
 D:\project_.NET\system_university\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.system_university.props
 D:\project_.NET\system_university\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.system_university.props
 D:\project_.NET\system_university\obj\Debug\net8.0\staticwebassets.pack.json
-D:\project_.NET\system_university\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\project_.NET\system_university\obj\Debug\net8.0\system_u.211CF338.Up2Date
 D:\project_.NET\system_university\obj\Debug\net8.0\system_university.dll
 D:\project_.NET\system_university\obj\Debug\net8.0\refint\system_university.dll
@@ -197,3 +196,4 @@ D:\project_.NET\System_University\bin\Debug\net8.0\ExcelNumberFormat.dll
 D:\project_.NET\System_University\bin\Debug\net8.0\RBush.dll
 D:\project_.NET\System_University\bin\Debug\net8.0\SixLabors.Fonts.dll
 D:\project_.NET\System_University\bin\Debug\net8.0\System.IO.Packaging.dll
+D:\project_.NET\System_University\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

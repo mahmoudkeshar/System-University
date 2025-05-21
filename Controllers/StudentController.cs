@@ -13,13 +13,14 @@ namespace system_university.Controllers
     public class StudentController : ControllerBase
     {
         private readonly AppDbContext _context;
-        private readonly UserManager<Student> _userManager; // Added UserManager field  
+        private readonly UserManager<User> _userManager;
 
-        public StudentController(AppDbContext context, UserManager<Student> userManager)
+        public StudentController(AppDbContext context, UserManager<User> userManager)
         {
             _context = context;
-            _userManager = userManager; // Initialize UserManager  
+            _userManager = userManager;
         }
+
 
         // get all students
         [HttpGet("AllStudent")]
@@ -45,7 +46,10 @@ namespace system_university.Controllers
         [HttpGet("qrcode/{studentCode}")]
         public async Task<IActionResult> GetQRCode(int studentCode)
         {
-            var student = await _userManager.Users.FirstOrDefaultAsync(s => s.StudentCode == studentCode);
+            var student = await _userManager.Users
+                .OfType<Student>()
+                .FirstOrDefaultAsync(s => s.StudentCode == studentCode);
+
             if (student == null)
                 return NotFound("Student not found");
 
@@ -58,5 +62,6 @@ namespace system_university.Controllers
 
             return File(imageBytes, "image/png");
         }
+
     }
 }

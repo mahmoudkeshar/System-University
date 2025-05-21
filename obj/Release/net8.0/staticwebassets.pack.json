@@ -1,0 +1,45 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedule.html",
+      "PackagePath": "staticwebassets\\schedule.html"
+    },
+    {
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level1.pdf",
+      "PackagePath": "staticwebassets\\schedules\\level1.pdf"
+    },
+    {
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level2.pdf",
+      "PackagePath": "staticwebassets\\schedules\\level2.pdf"
+    },
+    {
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level3.pdf",
+      "PackagePath": "staticwebassets\\schedules\\level3.pdf"
+    },
+    {
+      "Id": "D:\\project_.NET\\System_University\\wwwroot\\schedules\\level4.pdf",
+      "PackagePath": "staticwebassets\\schedules\\level4.pdf"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.build.system_university.props",
+      "PackagePath": "build\\system_university.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.system_university.props",
+      "PackagePath": "buildMultiTargeting\\system_university.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.buildTransitive.system_university.props",
+      "PackagePath": "buildTransitive\\system_university.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.system_university.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net8.0\\staticwebassets\\msbuild.system_university.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

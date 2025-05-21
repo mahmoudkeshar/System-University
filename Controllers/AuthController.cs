@@ -53,7 +53,8 @@ namespace system_university.Controllers
                 UserName = model.Email,
                 Email = model.Email,
                 FullName = model.FullName,
-                StudentCode = model.StudentCode
+                StudentCode = model.StudentCode,
+                Role = Roles.Student
             };
 
             var result = await _userManager.CreateAsync(user, model.Password);
